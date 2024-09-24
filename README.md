@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>array ex1</title>
+    </head>
+    <body>
+        <h2>demo on array</h2>
+        <script>
+            //array initialization
+            let runs = [4,10,5,2,7,4];
+            let total=0;
+            for(i=0; i<runs.length; i++)
+        {
+            document.write("over "+ (i+1) +" : "+ runs[i] + "<br>");
+            total=total+runs[i];
+        }
+        document.write("Total Runs : "+total+"<br>");
+        document.write("Overs : "+ runs.length + "<br>");
+        </script>
+    </body>
+</html>
